@@ -1,0 +1,26 @@
+
+    * { font-family: 'Courier New', Courier, monospace; }
+
+$skin: hsl(200, 50%, 95%);
+$capWhite: $skin;
+$cap: hsl(10, 100%, 55%);
+$antenna_light: hsl(87, 100%, 55%);
+$antenna: hsl(87, 95%, 42%);
+$antenna_dark: hsl(87, 90%, 30%);
+$border: black;
+$skin_shadow: hsl(200, 50%, 75%);
+$eye: hsl(226, 80%, 25%);
+
+p {
+  .skin::selection { background-color: $skin; }
+  .capWhite::selection { background-color: $capWhite; }
+  .cap::selection { background-color: $cap; }
+  .antenna_light::selection { background-color: $antenna_light; }
+  .antenna::selection { background-color: $antenna; }
+  .antenna_dark::selection { background-color: $antenna_dark; }
+  .border::selection { background-color: $border; }
+  .skin_shadow::selection { background-color: $skin_shadow; }
+  .eye::selection { background-color: $eye; }
+  
+  white-space: pre;
+}
