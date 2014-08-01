@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes myfirst {
+          from { transform: rotate(0deg);}
+          to {transform: rotate(360deg);}
+      }
+
+      /* Standard syntax */
+      @keyframes myfirst {
+          from {transform: rotate(0deg);}
+          to {transform: rotate(360deg);}
+      }
+    span {
+      display: block; 
+      text-align: center;
+      margin-top: 5em;
+      font-family: Tahoma;
+      transform-origin: 50% 50%;
+      -webkit-animation: myfirst 5s linear infinite; /* Chrome, Safari, Opera */
+      animation: myfirst 5s linear infinite;
+    }
+    </style>
+  </head>
+  <body>
+    <span>:3</span>
+  </body>
+</html>
+
