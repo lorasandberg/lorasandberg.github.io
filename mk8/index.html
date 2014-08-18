@@ -30,6 +30,8 @@
             <th data-sort="string">Name</th>
             <th data-sort="int">FFAs played</th>
             <th data-sort="int">Point total</th>
+            <!-- <th data-sort="float">Average position</th> -->
+            <!-- <th data-sort="float">Average score</th> -->
             <th data-sort="int">1st</th>
             <th data-sort="int">2nd</th>
             <th data-sort="int">3rd</th>
@@ -89,6 +91,8 @@
                         row.append('<td>' + p + '</td>');
                         row.append('<td>' + players[p].ffas + '</td>');
                         row.append('<td>' + arraySum(players[p].points) + '</td>');
+                        //row.append('<td>' + Math.floor(arraySum(players[p].positions) / players[p].ffas * 10) / 10 + '</td>');
+                        //row.append('<td>' + Math.floor(arraySum(players[p].points) / players[p].ffas * 10) / 10 + '</td>');
                         
                         var pos = [0,0,0,0,0,0,0,0,0,0,0,0];
                         
