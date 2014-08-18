@@ -1,1304 +1,1365 @@
 [
     [
-        {
-            "position": "1",
-            "name": "Darch",
-            "points": "191"
+    {
+      "position": "1",
+      "name": "Darch",
+      "points": "191"
         },
-        {
-            "position": "2",
-            "name": "Genkku",
-            "points": "158"
+    {
+      "position": "2",
+      "name": "Genkku",
+      "points": "158"
         },
-        {
-            "position": "3",
-            "name": "Spike",
-            "points": "156"
+    {
+      "position": "3",
+      "name": "Spike",
+      "points": "156"
         },
-        {
-            "position": "4",
-            "name": "Koivari",
-            "points": "155"
+    {
+      "position": "4",
+      "name": "Koivari",
+      "points": "155"
         },
-        {
-            "position": "5",
-            "name": "Loota",
-            "points": "152"
+    {
+      "position": "5",
+      "name": "Loota",
+      "points": "152"
         },
-        {
-            "position": "6",
-            "name": "Trifroze",
-            "points": "141"
+    {
+      "position": "6",
+      "name": "Trifroze",
+      "points": "141"
         },
-        {
-            "position": "7",
-            "name": "Wanapp",
-            "points": "133"
+    {
+      "position": "7",
+      "name": "Wanapp",
+      "points": "133"
         },
-        {
-            "position": "8",
-            "name": "Samura1man",
-            "points": "130"
+    {
+      "position": "8",
+      "name": "Samura1man",
+      "points": "130"
         },
-        {
-            "position": "9",
-            "name": "JK",
-            "points": "120"
+    {
+      "position": "9",
+      "name": "JK",
+      "points": "120"
         },
-        {
-            "position": "10",
-            "name": "NamiNami",
-            "points": "112"
+    {
+      "position": "10",
+      "name": "NamiNami",
+      "points": "112"
         },
-        {
-            "position": "11",
-            "name": "Vallu",
-            "points": "88"
+    {
+      "position": "11",
+      "name": "Vallu",
+      "points": "88"
         },
-        {
-            "position": "12",
-            "name": "Rush",
-            "points": "87"
+    {
+      "position": "12",
+      "name": "Rush",
+      "points": "87"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Puffe",
-            "points": "151"
+    {
+      "position": "1",
+      "name": "Puffe",
+      "points": "151"
         },
-        {
-            "position": "2",
-            "name": "Samura1man",
-            "points": "147"
+    {
+      "position": "2",
+      "name": "Samura1man",
+      "points": "147"
         },
-        {
-            "position": "3",
-            "name": "Koivari",
-            "points": "131"
+    {
+      "position": "3",
+      "name": "Koivari",
+      "points": "131"
         },
-        {
-            "position": "4",
-            "name": "Trifroze",
-            "points": "131"
+    {
+      "position": "4",
+      "name": "Trifroze",
+      "points": "131"
         },
-        {
-            "position": "5",
-            "name": "JK",
-            "points": "130"
+    {
+      "position": "5",
+      "name": "JK",
+      "points": "130"
         },
-        {
-            "position": "6",
-            "name": "Darch",
-            "points": "114"
+    {
+      "position": "6",
+      "name": "Darch",
+      "points": "114"
         },
-        {
-            "position": "7",
-            "name": "Loota",
-            "points": "107"
+    {
+      "position": "7",
+      "name": "Loota",
+      "points": "107"
         },
-        {
-            "position": "8",
-            "name": "Vallu",
-            "points": "105"
+    {
+      "position": "8",
+      "name": "Vallu",
+      "points": "105"
         },
-        {
-            "position": "9",
-            "name": "Ataappi",
-            "points": "50"
+    {
+      "position": "9",
+      "name": "Ataappi",
+      "points": "50"
         },
-        {
-            "position": "10",
-            "name": "Eetu",
-            "points": "31"
+    {
+      "position": "10",
+      "name": "Eetu",
+      "points": "31"
         },
-        {
-            "position": "11",
-            "name": "",
-            "points": "0"
+    {
+      "position": "11",
+      "name": "",
+      "points": "0"
         },
-        {
-            "position": "12",
-            "name": "",
-            "points": "0"
+    {
+      "position": "12",
+      "name": "",
+      "points": "0"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "190"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "190"
         },
-        {
-            "position": "2",
-            "name": "Darch",
-            "points": "184"
+    {
+      "position": "2",
+      "name": "Darch",
+      "points": "184"
         },
-        {
-            "position": "3",
-            "name": "JK",
-            "points": "174"
+    {
+      "position": "3",
+      "name": "JK",
+      "points": "174"
         },
-        {
-            "position": "4",
-            "name": "Samura1man",
-            "points": "146"
+    {
+      "position": "4",
+      "name": "Samura1man",
+      "points": "146"
         },
-        {
-            "position": "5",
-            "name": "Forre",
-            "points": "144"
+    {
+      "position": "5",
+      "name": "Forre",
+      "points": "144"
         },
-        {
-            "position": "6",
-            "name": "Puffe",
-            "points": "129"
+    {
+      "position": "6",
+      "name": "Puffe",
+      "points": "129"
         },
-        {
-            "position": "7",
-            "name": "Trifroze",
-            "points": "126"
+    {
+      "position": "7",
+      "name": "Trifroze",
+      "points": "126"
         },
-        {
-            "position": "8",
-            "name": "NamiNami",
-            "points": "121"
+    {
+      "position": "8",
+      "name": "NamiNami",
+      "points": "121"
         },
-        {
-            "position": "9",
-            "name": "Meta",
-            "points": "99"
+    {
+      "position": "9",
+      "name": "Meta",
+      "points": "99"
         },
-        {
-            "position": "10",
-            "name": "Loota",
-            "points": "91"
+    {
+      "position": "10",
+      "name": "Loota",
+      "points": "91"
         },
-        {
-            "position": "11",
-            "name": "Rush",
-            "points": "82"
+    {
+      "position": "11",
+      "name": "Rush",
+      "points": "82"
         },
-        {
-            "position": "12",
-            "name": "Vallu",
-            "points": "38"
+    {
+      "position": "12",
+      "name": "Vallu",
+      "points": "38"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "JK",
-            "points": "212"
+    {
+      "position": "1",
+      "name": "JK",
+      "points": "212"
         },
-        {
-            "position": "2",
-            "name": "Trifroze",
-            "points": "175"
+    {
+      "position": "2",
+      "name": "Trifroze",
+      "points": "175"
         },
-        {
-            "position": "3",
-            "name": "Forre",
-            "points": "164"
+    {
+      "position": "3",
+      "name": "Forre",
+      "points": "164"
         },
-        {
-            "position": "4",
-            "name": "Xylitol",
-            "points": "159"
+    {
+      "position": "4",
+      "name": "Xylitol",
+      "points": "159"
         },
-        {
-            "position": "5",
-            "name": "Darch",
-            "points": "155"
+    {
+      "position": "5",
+      "name": "Darch",
+      "points": "155"
         },
-        {
-            "position": "6",
-            "name": "Spike",
-            "points": "137"
+    {
+      "position": "6",
+      "name": "Spike",
+      "points": "137"
         },
-        {
-            "position": "7",
-            "name": "Loota",
-            "points": "129"
+    {
+      "position": "7",
+      "name": "Loota",
+      "points": "129"
         },
-        {
-            "position": "8",
-            "name": "Genkku",
-            "points": "123"
+    {
+      "position": "8",
+      "name": "Genkku",
+      "points": "123"
         },
-        {
-            "position": "9",
-            "name": "Koivari",
-            "points": "121"
+    {
+      "position": "9",
+      "name": "Koivari",
+      "points": "121"
         },
-        {
-            "position": "10",
-            "name": "Rush",
-            "points": "107"
+    {
+      "position": "10",
+      "name": "Rush",
+      "points": "107"
         },
-        {
-            "position": "11",
-            "name": "Zeropoint",
-            "points": "77"
+    {
+      "position": "11",
+      "name": "Zeropoint",
+      "points": "77"
         },
-        {
-            "position": "12",
-            "name": "Swagalee",
-            "points": "70"
+    {
+      "position": "12",
+      "name": "Swagalee",
+      "points": "70"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "JK",
-            "points": "209"
+    {
+      "position": "1",
+      "name": "JK",
+      "points": "209"
         },
-        {
-            "position": "2",
-            "name": "Forre",
-            "points": "183"
+    {
+      "position": "2",
+      "name": "Forre",
+      "points": "183"
         },
-        {
-            "position": "3",
-            "name": "Trifroze",
-            "points": "163"
+    {
+      "position": "3",
+      "name": "Trifroze",
+      "points": "163"
         },
-        {
-            "position": "4",
-            "name": "Spike",
-            "points": "155"
+    {
+      "position": "4",
+      "name": "Spike",
+      "points": "155"
         },
-        {
-            "position": "5",
-            "name": "Kaura",
-            "points": "153"
+    {
+      "position": "5",
+      "name": "Kaura",
+      "points": "153"
         },
-        {
-            "position": "6",
-            "name": "Loota",
-            "points": "144"
+    {
+      "position": "6",
+      "name": "Loota",
+      "points": "144"
         },
-        {
-            "position": "7",
-            "name": "Puffe",
-            "points": "142"
+    {
+      "position": "7",
+      "name": "Puffe",
+      "points": "142"
         },
-        {
-            "position": "8",
-            "name": "Darch",
-            "points": "137"
+    {
+      "position": "8",
+      "name": "Darch",
+      "points": "137"
         },
-        {
-            "position": "9",
-            "name": "Vallu",
-            "points": "101"
+    {
+      "position": "9",
+      "name": "Vallu",
+      "points": "101"
         },
-        {
-            "position": "10",
-            "name": "Rush",
-            "points": "95"
+    {
+      "position": "10",
+      "name": "Rush",
+      "points": "95"
         },
-        {
-            "position": "11",
-            "name": "Zeropoint",
-            "points": "82"
+    {
+      "position": "11",
+      "name": "Zeropoint",
+      "points": "82"
         },
-        {
-            "position": "12",
-            "name": "Swagalee",
-            "points": "76"
+    {
+      "position": "12",
+      "name": "Swagalee",
+      "points": "76"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "205"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "205"
         },
-        {
-            "position": "2",
-            "name": "Forre",
-            "points": "195"
+    {
+      "position": "2",
+      "name": "Forre",
+      "points": "195"
         },
-        {
-            "position": "3",
-            "name": "Darch",
-            "points": "180"
+    {
+      "position": "3",
+      "name": "Darch",
+      "points": "180"
         },
-        {
-            "position": "4",
-            "name": "JK",
-            "points": "165"
+    {
+      "position": "4",
+      "name": "JK",
+      "points": "165"
         },
-        {
-            "position": "5",
-            "name": "Spike",
-            "points": "160"
+    {
+      "position": "5",
+      "name": "Spike",
+      "points": "160"
         },
-        {
-            "position": "6",
-            "name": "Loota",
-            "points": "127"
+    {
+      "position": "6",
+      "name": "Loota",
+      "points": "127"
         },
-        {
-            "position": "7",
-            "name": "Genkku",
-            "points": "120"
+    {
+      "position": "7",
+      "name": "Genkku",
+      "points": "120"
         },
-        {
-            "position": "8",
-            "name": "Meta",
-            "points": "116"
+    {
+      "position": "8",
+      "name": "Meta",
+      "points": "116"
         },
-        {
-            "position": "9",
-            "name": "Heat",
-            "points": "97"
+    {
+      "position": "9",
+      "name": "Heat",
+      "points": "97"
         },
-        {
-            "position": "10",
-            "name": "Swagalee",
-            "points": "74"
+    {
+      "position": "10",
+      "name": "Swagalee",
+      "points": "74"
         },
-        {
-            "position": "11",
-            "name": "Snovi",
-            "points": "72"
+    {
+      "position": "11",
+      "name": "Snovi",
+      "points": "72"
         },
-        {
-            "position": "12",
-            "name": "Miki",
-            "points": "61"
+    {
+      "position": "12",
+      "name": "Miki",
+      "points": "61"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "244"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "244"
         },
-        {
-            "position": "2",
-            "name": "Spike",
-            "points": "176"
+    {
+      "position": "2",
+      "name": "Spike",
+      "points": "176"
         },
-        {
-            "position": "3",
-            "name": "Trifroze",
-            "points": "155"
+    {
+      "position": "3",
+      "name": "Trifroze",
+      "points": "155"
         },
-        {
-            "position": "4",
-            "name": "Darch",
-            "points": "154"
+    {
+      "position": "4",
+      "name": "Darch",
+      "points": "154"
         },
-        {
-            "position": "5",
-            "name": "Loota",
-            "points": "145"
+    {
+      "position": "5",
+      "name": "Loota",
+      "points": "145"
         },
-        {
-            "position": "6",
-            "name": "Genkku",
-            "points": "141"
+    {
+      "position": "6",
+      "name": "Genkku",
+      "points": "141"
         },
-        {
-            "position": "7",
-            "name": "Xylitol",
-            "points": "126"
+    {
+      "position": "7",
+      "name": "Xylitol",
+      "points": "126"
         },
-        {
-            "position": "8",
-            "name": "Vallu",
-            "points": "104"
+    {
+      "position": "8",
+      "name": "Vallu",
+      "points": "104"
         },
-        {
-            "position": "9",
-            "name": "Miki",
-            "points": "102"
+    {
+      "position": "9",
+      "name": "Miki",
+      "points": "102"
         },
-        {
-            "position": "9",
-            "name": "Troikku",
-            "points": "102"
+    {
+      "position": "9",
+      "name": "Troikku",
+      "points": "102"
         },
-        {
-            "position": "11",
-            "name": "Heat",
-            "points": "99"
+    {
+      "position": "11",
+      "name": "Heat",
+      "points": "99"
         },
-        {
-            "position": "12",
-            "name": "Kaura",
-            "points": "94"
+    {
+      "position": "12",
+      "name": "Kaura",
+      "points": "94"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "192"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "192"
         },
-        {
-            "position": "2",
-            "name": "Sera",
-            "points": "167"
+    {
+      "position": "2",
+      "name": "Sera",
+      "points": "167"
         },
-        {
-            "position": "3",
-            "name": "Loota",
-            "points": "155"
+    {
+      "position": "3",
+      "name": "Loota",
+      "points": "155"
         },
-        {
-            "position": "4",
-            "name": "JK",
-            "points": "149"
+    {
+      "position": "4",
+      "name": "JK",
+      "points": "149"
         },
-        {
-            "position": "5",
-            "name": "Forre",
-            "points": "148"
+    {
+      "position": "5",
+      "name": "Forre",
+      "points": "148"
         },
-        {
-            "position": "6",
-            "name": "Darch",
-            "points": "145"
+    {
+      "position": "6",
+      "name": "Darch",
+      "points": "145"
         },
-        {
-            "position": "7",
-            "name": "Spike",
-            "points": "140"
+    {
+      "position": "7",
+      "name": "Spike",
+      "points": "140"
         },
-        {
-            "position": "8",
-            "name": "Puffe",
-            "points": "137"
+    {
+      "position": "8",
+      "name": "Puffe",
+      "points": "137"
         },
-        {
-            "position": "9",
-            "name": "Xylitol",
-            "points": "122"
+    {
+      "position": "9",
+      "name": "Xylitol",
+      "points": "122"
         },
-        {
-            "position": "10",
-            "name": "Genkku",
-            "points": "104"
+    {
+      "position": "10",
+      "name": "Genkku",
+      "points": "104"
         },
-        {
-            "position": "11",
-            "name": "Jage",
-            "points": "91"
+    {
+      "position": "11",
+      "name": "Jage",
+      "points": "91"
         },
-        {
-            "position": "12",
-            "name": "Wapazi",
-            "points": "75"
+    {
+      "position": "12",
+      "name": "Wapazi",
+      "points": "75"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Spike",
-            "points": "208"
+    {
+      "position": "1",
+      "name": "Spike",
+      "points": "208"
         },
-        {
-            "position": "2",
-            "name": "Ruby",
-            "points": "188"
+    {
+      "position": "2",
+      "name": "Ruby",
+      "points": "188"
         },
-        {
-            "position": "3",
-            "name": "Darch",
-            "points": "184"
+    {
+      "position": "3",
+      "name": "Darch",
+      "points": "184"
         },
-        {
-            "position": "4",
-            "name": "JK",
-            "points": "157"
+    {
+      "position": "4",
+      "name": "JK",
+      "points": "157"
         },
-        {
-            "position": "5",
-            "name": "Samura1",
-            "points": "132"
+    {
+      "position": "5",
+      "name": "Samura1",
+      "points": "132"
         },
-        {
-            "position": "6",
-            "name": "Puffe",
-            "points": "128"
+    {
+      "position": "6",
+      "name": "Puffe",
+      "points": "128"
         },
-        {
-            "position": "7",
-            "name": "Heat",
-            "points": "127"
+    {
+      "position": "7",
+      "name": "Heat",
+      "points": "127"
         },
-        {
-            "position": "8",
-            "name": "Genkku",
-            "points": "126"
+    {
+      "position": "8",
+      "name": "Genkku",
+      "points": "126"
         },
-        {
-            "position": "9",
-            "name": "Wanap",
-            "points": "100"
+    {
+      "position": "9",
+      "name": "Wanap",
+      "points": "100"
         },
-        {
-            "position": "10",
-            "name": "Rush",
-            "points": "97"
+    {
+      "position": "10",
+      "name": "Rush",
+      "points": "97"
         },
-        {
-            "position": "11",
-            "name": "NamiNami",
-            "points": "92"
+    {
+      "position": "11",
+      "name": "NamiNami",
+      "points": "92"
         },
-        {
-            "position": "12",
-            "name": "Troikku",
-            "points": "81"
+    {
+      "position": "12",
+      "name": "Troikku",
+      "points": "81"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Trifroze",
-            "points": "206"
+    {
+      "position": "1",
+      "name": "Trifroze",
+      "points": "206"
         },
-        {
-            "position": "2",
-            "name": "Ruby",
-            "points": "197"
+    {
+      "position": "2",
+      "name": "Ruby",
+      "points": "197"
         },
-        {
-            "position": "3",
-            "name": "Darch",
-            "points": "157"
+    {
+      "position": "3",
+      "name": "Darch",
+      "points": "157"
         },
-        {
-            "position": "4",
-            "name": "Genkku",
-            "points": "154"
+    {
+      "position": "4",
+      "name": "Genkku",
+      "points": "154"
         },
-        {
-            "position": "5",
-            "name": "Spike",
-            "points": "148"
+    {
+      "position": "5",
+      "name": "Spike",
+      "points": "148"
         },
-        {
-            "position": "6",
-            "name": "Forre",
-            "points": "143"
+    {
+      "position": "6",
+      "name": "Forre",
+      "points": "143"
         },
-        {
-            "position": "7",
-            "name": "Loota",
-            "points": "134"
+    {
+      "position": "7",
+      "name": "Loota",
+      "points": "134"
         },
-        {
-            "position": "8",
-            "name": "Xylitol",
-            "points": "126"
+    {
+      "position": "8",
+      "name": "Xylitol",
+      "points": "126"
         },
-        {
-            "position": "9",
-            "name": "Heat",
-            "points": "113"
+    {
+      "position": "9",
+      "name": "Heat",
+      "points": "113"
         },
-        {
-            "position": "10",
-            "name": "wanap",
-            "points": "100"
+    {
+      "position": "10",
+      "name": "wanap",
+      "points": "100"
         },
-        {
-            "position": "11",
-            "name": "Vallu",
-            "points": "88"
+    {
+      "position": "11",
+      "name": "Vallu",
+      "points": "88"
         },
-        {
-            "position": "12",
-            "name": "",
-            "points": ""
+    {
+      "position": "12",
+      "name": "",
+      "points": ""
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "191"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "191"
         },
-        {
-            "position": "2",
-            "name": "JK",
-            "points": "188"
+    {
+      "position": "2",
+      "name": "JK",
+      "points": "188"
         },
-        {
-            "position": "3",
-            "name": "Spike",
-            "points": "161"
+    {
+      "position": "3",
+      "name": "Spike",
+      "points": "161"
         },
-        {
-            "position": "4",
-            "name": "Loota",
-            "points": "157"
+    {
+      "position": "4",
+      "name": "Loota",
+      "points": "157"
         },
-        {
-            "position": "5",
-            "name": "Genkku",
-            "points": "154"
+    {
+      "position": "5",
+      "name": "Genkku",
+      "points": "154"
         },
-        {
-            "position": "6",
-            "name": "Vallu",
-            "points": "134"
+    {
+      "position": "6",
+      "name": "Vallu",
+      "points": "134"
         },
-        {
-            "position": "7",
-            "name": "Darch",
-            "points": "131"
+    {
+      "position": "7",
+      "name": "Darch",
+      "points": "131"
         },
-        {
-            "position": "8",
-            "name": "Miki",
-            "points": "126"
+    {
+      "position": "8",
+      "name": "Miki",
+      "points": "126"
         },
-        {
-            "position": "9",
-            "name": "Troikku",
-            "points": "121"
+    {
+      "position": "9",
+      "name": "Troikku",
+      "points": "121"
         },
-        {
-            "position": "10",
-            "name": "Jage",
-            "points": "102"
+    {
+      "position": "10",
+      "name": "Jage",
+      "points": "102"
         },
-        {
-            "position": "11",
-            "name": "Suip",
-            "points": "92"
+    {
+      "position": "11",
+      "name": "Suip",
+      "points": "92"
         },
-        {
-            "position": "12",
-            "name": "Meta",
-            "points": "91"
+    {
+      "position": "12",
+      "name": "Meta",
+      "points": "91"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "188"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "188"
         },
-        {
-            "position": "2",
-            "name": "Forre",
-            "points": "183"
+    {
+      "position": "2",
+      "name": "Forre",
+      "points": "183"
         },
-        {
-            "position": "3",
-            "name": "Loota",
-            "points": "176"
+    {
+      "position": "3",
+      "name": "Loota",
+      "points": "176"
         },
-        {
-            "position": "4",
-            "name": "Spike",
-            "points": "175"
+    {
+      "position": "4",
+      "name": "Spike",
+      "points": "175"
         },
-        {
-            "position": "5",
-            "name": "Trifroze",
-            "points": "173"
+    {
+      "position": "5",
+      "name": "Trifroze",
+      "points": "173"
         },
-        {
-            "position": "6",
-            "name": "Darch",
-            "points": "154"
+    {
+      "position": "6",
+      "name": "Darch",
+      "points": "154"
         },
-        {
-            "position": "7",
-            "name": "Genkku",
-            "points": "142"
+    {
+      "position": "7",
+      "name": "Genkku",
+      "points": "142"
         },
-        {
-            "position": "8",
-            "name": "Vallu",
-            "points": "141"
+    {
+      "position": "8",
+      "name": "Vallu",
+      "points": "141"
         },
-        {
-            "position": "9",
-            "name": "NamiNami",
-            "points": "118"
+    {
+      "position": "9",
+      "name": "NamiNami",
+      "points": "118"
         },
-        {
-            "position": "10",
-            "name": "Swagalee",
-            "points": "87"
+    {
+      "position": "10",
+      "name": "Swagalee",
+      "points": "87"
         },
-        {
-            "position": "11",
-            "name": "Zeropoint",
-            "points": "60"
+    {
+      "position": "11",
+      "name": "Zeropoint",
+      "points": "60"
         },
-        {
-            "position": "12",
-            "name": "Lemmy",
-            "points": "46"
+    {
+      "position": "12",
+      "name": "Lemmy",
+      "points": "46"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "251"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "251"
         },
-        {
-            "position": "2",
-            "name": "Genkku",
-            "points": "198"
+    {
+      "position": "2",
+      "name": "Genkku",
+      "points": "198"
         },
-        {
-            "position": "3",
-            "name": "Puffe",
-            "points": "192"
+    {
+      "position": "3",
+      "name": "Puffe",
+      "points": "192"
         },
-        {
-            "position": "4",
-            "name": "JK",
-            "points": "162"
+    {
+      "position": "4",
+      "name": "JK",
+      "points": "162"
         },
-        {
-            "position": "5",
-            "name": "Darch",
-            "points": "158"
+    {
+      "position": "5",
+      "name": "Darch",
+      "points": "158"
         },
-        {
-            "position": "6",
-            "name": "Spike",
-            "points": "156"
+    {
+      "position": "6",
+      "name": "Spike",
+      "points": "156"
         },
-        {
-            "position": "7",
-            "name": "Vallu",
-            "points": "139"
+    {
+      "position": "7",
+      "name": "Vallu",
+      "points": "139"
         },
-        {
-            "position": "8",
-            "name": "Swagalee",
-            "points": "107"
+    {
+      "position": "8",
+      "name": "Swagalee",
+      "points": "107"
         },
-        {
-            "position": "9",
-            "name": "Zeropoint",
-            "points": "93"
+    {
+      "position": "9",
+      "name": "Zeropoint",
+      "points": "93"
         },
-        {
-            "position": "10",
-            "name": "Loota",
-            "points": "0"
+    {
+      "position": "10",
+      "name": "Loota",
+      "points": "0"
         },
-        {
-            "position": "11",
-            "name": "Miki",
-            "points": "0"
+    {
+      "position": "11",
+      "name": "Miki",
+      "points": "0"
         },
-        {
-            "position": "12",
-            "name": "",
-            "points": "0"
+    {
+      "position": "12",
+      "name": "",
+      "points": "0"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "JK",
-            "points": "179"
+    {
+      "position": "1",
+      "name": "JK",
+      "points": "179"
         },
-        {
-            "position": "2",
-            "name": "Loota",
-            "points": "169"
+    {
+      "position": "2",
+      "name": "Loota",
+      "points": "169"
         },
-        {
-            "position": "3",
-            "name": "Forre",
-            "points": "160"
+    {
+      "position": "3",
+      "name": "Forre",
+      "points": "160"
         },
-        {
-            "position": "4",
-            "name": "Ruby",
-            "points": "157"
+    {
+      "position": "4",
+      "name": "Ruby",
+      "points": "157"
         },
-        {
-            "position": "5",
-            "name": "Puffe",
-            "points": "143"
+    {
+      "position": "5",
+      "name": "Puffe",
+      "points": "143"
         },
-        {
-            "position": "6",
-            "name": "Samura1man",
-            "points": "141"
+    {
+      "position": "6",
+      "name": "Samura1man",
+      "points": "141"
         },
-        {
-            "position": "7",
-            "name": "Spike",
-            "points": "140"
+    {
+      "position": "7",
+      "name": "Spike",
+      "points": "140"
         },
-        {
-            "position": "8",
-            "name": "Genkku",
-            "points": "130"
+    {
+      "position": "8",
+      "name": "Genkku",
+      "points": "130"
         },
-        {
-            "position": "9",
-            "name": "Heat",
-            "points": "129"
+    {
+      "position": "9",
+      "name": "Heat",
+      "points": "129"
         },
-        {
-            "position": "10",
-            "name": "Xylitol",
-            "points": "124"
+    {
+      "position": "10",
+      "name": "Xylitol",
+      "points": "124"
         },
-        {
-            "position": "11",
-            "name": "Miki",
-            "points": "106"
+    {
+      "position": "11",
+      "name": "Miki",
+      "points": "106"
         },
-        {
-            "position": "12",
-            "name": "Wanap",
-            "points": "62"
+    {
+      "position": "12",
+      "name": "Wanap",
+      "points": "62"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "238"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "238"
         },
-        {
-            "position": "2",
-            "name": "Puffe",
-            "points": "180"
+    {
+      "position": "2",
+      "name": "Puffe",
+      "points": "180"
         },
-        {
-            "position": "3",
-            "name": "JK",
-            "points": "176"
+    {
+      "position": "3",
+      "name": "JK",
+      "points": "176"
         },
-        {
-            "position": "4",
-            "name": "Spike",
-            "points": "154"
+    {
+      "position": "4",
+      "name": "Spike",
+      "points": "154"
         },
-        {
-            "position": "5",
-            "name": "Forre",
-            "points": "151"
+    {
+      "position": "5",
+      "name": "Forre",
+      "points": "151"
         },
-        {
-            "position": "6",
-            "name": "Heat",
-            "points": "151"
+    {
+      "position": "6",
+      "name": "Heat",
+      "points": "151"
         },
-        {
-            "position": "7",
-            "name": "Darch",
-            "points": "150"
+    {
+      "position": "7",
+      "name": "Darch",
+      "points": "150"
         },
-        {
-            "position": "8",
-            "name": "Genkku",
-            "points": "137"
+    {
+      "position": "8",
+      "name": "Genkku",
+      "points": "137"
         },
-        {
-            "position": "9",
-            "name": "Kaura",
-            "points": "98"
+    {
+      "position": "9",
+      "name": "Kaura",
+      "points": "98"
         },
-        {
-            "position": "10",
-            "name": "Rush",
-            "points": "81"
+    {
+      "position": "10",
+      "name": "Rush",
+      "points": "81"
         },
-        {
-            "position": "11",
-            "name": "Swagalee",
-            "points": "62"
+    {
+      "position": "11",
+      "name": "Swagalee",
+      "points": "62"
         },
-        {
-            "position": "12",
-            "name": "Tuutti",
-            "points": "62"
+    {
+      "position": "12",
+      "name": "Tuutti",
+      "points": "62"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "145"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "145"
         },
-        {
-            "position": "2",
-            "name": "Darch",
-            "points": "127"
+    {
+      "position": "2",
+      "name": "Darch",
+      "points": "127"
         },
-        {
-            "position": "3",
-            "name": "Forre",
-            "points": "119"
+    {
+      "position": "3",
+      "name": "Forre",
+      "points": "119"
         },
-        {
-            "position": "4",
-            "name": "JK",
-            "points": "104"
+    {
+      "position": "4",
+      "name": "JK",
+      "points": "104"
         },
-        {
-            "position": "5",
-            "name": "Puffe",
-            "points": "101"
+    {
+      "position": "5",
+      "name": "Puffe",
+      "points": "101"
         },
-        {
-            "position": "6",
-            "name": "Xylitol",
-            "points": "97"
+    {
+      "position": "6",
+      "name": "Xylitol",
+      "points": "97"
         },
-        {
-            "position": "7",
-            "name": "Swagalee",
-            "points": "51"
+    {
+      "position": "7",
+      "name": "Swagalee",
+      "points": "51"
         },
-        {
-            "position": "8",
-            "name": "Zeropoint",
-            "points": "36"
+    {
+      "position": "8",
+      "name": "Zeropoint",
+      "points": "36"
         },
-        {
-            "position": "9",
-            "name": "",
-            "points": "0"
+    {
+      "position": "9",
+      "name": "",
+      "points": "0"
         },
-        {
-            "position": "10",
-            "name": "",
-            "points": "0"
+    {
+      "position": "10",
+      "name": "",
+      "points": "0"
         },
-        {
-            "position": "11",
-            "name": "",
-            "points": "0"
+    {
+      "position": "11",
+      "name": "",
+      "points": "0"
         },
-        {
-            "position": "12",
-            "name": "",
-            "points": "0"
+    {
+      "position": "12",
+      "name": "",
+      "points": "0"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Puffe",
-            "points": "187"
+    {
+      "position": "1",
+      "name": "Puffe",
+      "points": "187"
         },
-        {
-            "position": "3",
-            "name": "Forre",
-            "points": "183"
+    {
+      "position": "3",
+      "name": "Forre",
+      "points": "183"
         },
-        {
-            "position": "3",
-            "name": "Trifroze",
-            "points": "183"
+    {
+      "position": "3",
+      "name": "Trifroze",
+      "points": "183"
         },
-        {
-            "position": "2",
-            "name": "Darch",
-            "points": "172"
+    {
+      "position": "2",
+      "name": "Darch",
+      "points": "172"
         },
-        {
-            "position": "5",
-            "name": "JK",
-            "points": "146"
+    {
+      "position": "5",
+      "name": "JK",
+      "points": "146"
         },
-        {
-            "position": "6",
-            "name": "Loota",
-            "points": "134"
+    {
+      "position": "6",
+      "name": "Loota",
+      "points": "134"
         },
-        {
-            "position": "7",
-            "name": "Heat",
-            "points": "131"
+    {
+      "position": "7",
+      "name": "Heat",
+      "points": "131"
         },
-        {
-            "position": "8",
-            "name": "Spike",
-            "points": "126"
+    {
+      "position": "8",
+      "name": "Spike",
+      "points": "126"
         },
-        {
-            "position": "9",
-            "name": "Genkku",
-            "points": "125"
+    {
+      "position": "9",
+      "name": "Genkku",
+      "points": "125"
         },
-        {
-            "position": "10",
-            "name": "Xylitol",
-            "points": "95"
+    {
+      "position": "10",
+      "name": "Xylitol",
+      "points": "95"
         },
-        {
-            "position": "11",
-            "name": "Rush",
-            "points": "91"
+    {
+      "position": "11",
+      "name": "Rush",
+      "points": "91"
         },
-        {
-            "position": "12",
-            "name": "Tuutti",
-            "points": "61"
+    {
+      "position": "12",
+      "name": "Tuutti",
+      "points": "61"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Trifroze",
-            "points": "207"
+    {
+      "position": "1",
+      "name": "Trifroze",
+      "points": "207"
         },
-        {
-            "position": "2",
-            "name": "Genkku",
-            "points": "197"
+    {
+      "position": "2",
+      "name": "Genkku",
+      "points": "197"
         },
-        {
-            "position": "3",
-            "name": "Spike",
-            "points": "170"
+    {
+      "position": "3",
+      "name": "Spike",
+      "points": "170"
         },
-        {
-            "position": "4",
-            "name": "JK",
-            "points": "168"
+    {
+      "position": "4",
+      "name": "JK",
+      "points": "168"
         },
-        {
-            "position": "5",
-            "name": "Loota",
-            "points": "146"
+    {
+      "position": "5",
+      "name": "Loota",
+      "points": "146"
         },
-        {
-            "position": "6",
-            "name": "Darch",
-            "points": "143"
+    {
+      "position": "6",
+      "name": "Darch",
+      "points": "143"
         },
-        {
-            "position": "7",
-            "name": "Tomsu",
-            "points": "141"
+    {
+      "position": "7",
+      "name": "Tomsu",
+      "points": "141"
         },
-        {
-            "position": "8",
-            "name": "Puffe",
-            "points": "134"
+    {
+      "position": "8",
+      "name": "Puffe",
+      "points": "134"
         },
-        {
-            "position": "9",
-            "name": "Heat",
-            "points": "130"
+    {
+      "position": "9",
+      "name": "Heat",
+      "points": "130"
         },
-        {
-            "position": "10",
-            "name": "Xylitol",
-            "points": "120"
+    {
+      "position": "10",
+      "name": "Xylitol",
+      "points": "120"
         },
-        {
-            "position": "11",
-            "name": "",
-            "points": "0"
+    {
+      "position": "11",
+      "name": "",
+      "points": "0"
         },
-        {
-            "position": "12",
-            "name": "",
-            "points": "0"
+    {
+      "position": "12",
+      "name": "",
+      "points": "0"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "204"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "204"
         },
-        {
-            "position": "2",
-            "name": "Forre",
-            "points": "180"
+    {
+      "position": "2",
+      "name": "Forre",
+      "points": "180"
         },
-        {
-            "position": "3",
-            "name": "Spike",
-            "points": "178"
+    {
+      "position": "3",
+      "name": "Spike",
+      "points": "178"
         },
-        {
-            "position": "4",
-            "name": "Heat",
-            "points": "165"
+    {
+      "position": "4",
+      "name": "Heat",
+      "points": "165"
         },
-        {
-            "position": "5",
-            "name": "Puffe",
-            "points": "161"
+    {
+      "position": "5",
+      "name": "Puffe",
+      "points": "161"
         },
-        {
-            "position": "6",
-            "name": "Xylitol",
-            "points": "148"
+    {
+      "position": "6",
+      "name": "Xylitol",
+      "points": "148"
         },
-        {
-            "position": "7",
-            "name": "JK",
-            "points": "148"
+    {
+      "position": "7",
+      "name": "JK",
+      "points": "148"
         },
-        {
-            "position": "8",
-            "name": "Samura1man",
-            "points": "147"
+    {
+      "position": "8",
+      "name": "Samura1man",
+      "points": "147"
         },
-        {
-            "position": "9",
-            "name": "Darch",
-            "points": "123"
+    {
+      "position": "9",
+      "name": "Darch",
+      "points": "123"
         },
-        {
-            "position": "10",
-            "name": "Troikku",
-            "points": "122"
+    {
+      "position": "10",
+      "name": "Troikku",
+      "points": "122"
         },
-        {
-            "position": "11",
-            "name": "CPU total",
-            "points": "64"
+    {
+      "position": "11",
+      "name": "CPU total",
+      "points": "64"
         },
-        {
-            "position": "12",
-            "name": "",
-            "points": "0"
+    {
+      "position": "12",
+      "name": "",
+      "points": "0"
         }
     ],
     [
-        {
-            "position": "1",
-            "name": "Ruby",
-            "points": "218"
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "218"
         },
-        {
-            "position": "2",
-            "name": "Xylitol",
-            "points": "166"
+    {
+      "position": "2",
+      "name": "Xylitol",
+      "points": "166"
         },
-        {
-            "position": "3",
-            "name": "JK",
-            "points": "159"
+    {
+      "position": "3",
+      "name": "JK",
+      "points": "159"
         },
-        {
-            "position": "4",
-            "name": "Puffe",
-            "points": "158"
+    {
+      "position": "4",
+      "name": "Puffe",
+      "points": "158"
         },
-        {
-            "position": "5",
-            "name": "Heat",
-            "points": "158"
+    {
+      "position": "5",
+      "name": "Heat",
+      "points": "158"
         },
-        {
-            "position": "6",
-            "name": "Darch",
-            "points": "156"
+    {
+      "position": "6",
+      "name": "Darch",
+      "points": "156"
         },
-        {
-            "position": "7",
-            "name": "Samura1",
-            "points": "153"
+    {
+      "position": "7",
+      "name": "Samura1",
+      "points": "153"
         },
-        {
-            "position": "8",
-            "name": "Troikku",
-            "points": "139"
+    {
+      "position": "8",
+      "name": "Troikku",
+      "points": "139"
         },
-        {
-            "position": "9",
-            "name": "Forre",
-            "points": "136"
+    {
+      "position": "9",
+      "name": "Forre",
+      "points": "136"
         },
-        {
-            "position": "10",
-            "name": "Tomsu",
-            "points": "95"
+    {
+      "position": "10",
+      "name": "Tomsu",
+      "points": "95"
         },
-        {
-            "position": "11",
-            "name": "CPU total",
-            "points": "58"
+    {
+      "position": "11",
+      "name": "CPU total",
+      "points": "58"
         },
-        {
-            "position": "12",
-            "name": "Genkku",
-            "points": "36"
+    {
+      "position": "12",
+      "name": "Genkku",
+      "points": "36"
         }
+    ], [
+    {
+      "position": "1",
+      "name": "Ruby",
+      "points": "213"
+    },
+    {
+      "position": "2",
+      "name": "Spike",
+      "points": "177"
+    },
+    {
+      "position": "3",
+      "name": "JK",
+      "points": "168"
+    },
+    {
+      "position": "3",
+      "name": "Nikey",
+      "points": "168"
+    },
+    {
+      "position": "5",
+      "name": "Trifroze",
+      "points": "159"
+    },
+    {
+      "position": "6",
+      "name": "Darch",
+      "points": "153"
+    },
+    {
+      "position": "7",
+      "name": "Suip",
+      "points": "150"
+    },
+    {
+      "position": "8",
+      "name": "Heat",
+      "points": "147"
+    },
+    {
+      "position": "9",
+      "name": "Loota",
+      "points": "125"
+    },
+    {
+      "position": "10",
+      "name": "Tomsu",
+      "points": "120"
+    },
+    {
+      "position": "11",
+      "name": "Swagalee",
+      "points": "66"
+    },
+    {
+      "position": "12",
+      "name": "CPU",
+      "points": "24"
+    }
     ],
     [
-        {
-            "position": "1",
-            "name": "Nikey",
-            "points": "225"
+    {
+      "position": "1",
+      "name": "Nikey",
+      "points": "225"
         },
-        {
-            "position": "2",
-            "name": "Spike",
-            "points": "188"
+    {
+      "position": "2",
+      "name": "Spike",
+      "points": "188"
         },
-        {
-            "position": "2",
-            "name": "Ruby",
-            "points": "188"
+    {
+      "position": "2",
+      "name": "Ruby",
+      "points": "188"
         },
-        {
-            "position": "4",
-            "name": "Trifroze",
-            "points": "169"
+    {
+      "position": "4",
+      "name": "Trifroze",
+      "points": "169"
         },
-        {
-            "position": "5",
-            "name": "JK",
-            "points": "165"
+    {
+      "position": "5",
+      "name": "JK",
+      "points": "165"
         },
-        {
-            "position": "6",
-            "name": "Puffe",
-            "points": "160"
+    {
+      "position": "6",
+      "name": "Puffe",
+      "points": "160"
         },
-        {
-            "position": "7",
-            "name": "Loota",
-            "points": "144"
+    {
+      "position": "7",
+      "name": "Loota",
+      "points": "144"
         },
-        {
-            "position": "8",
-            "name": "Heat",
-            "points": "129"
+    {
+      "position": "8",
+      "name": "Heat",
+      "points": "129"
         },
-        {
-            "position": "9",
-            "name": "Troikku",
-            "points": "112"
+    {
+      "position": "9",
+      "name": "Troikku",
+      "points": "112"
         },
-        {
-            "position": "10",
-            "name": "Swagalee",
-            "points": "88"
+    {
+      "position": "10",
+      "name": "Swagalee",
+      "points": "88"
         },
-        {
-            "position": "11",
-            "name": "Genkku &amp; his minions",
-            "points": "69"
+    {
+      "position": "11",
+      "name": "Genkku &amp; his minions",
+      "points": "69"
         },
-        {
-            "position": "12",
-            "name": "",
-            "points": "0"
+    {
+      "position": "12",
+      "name": "",
+      "points": "0"
         }
     ]
 ]
