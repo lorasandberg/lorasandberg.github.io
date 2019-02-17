@@ -8,6 +8,10 @@ body {
 	position: relative;
 }
 
+.overflow-x-hidden {
+	overflow-x: hidden;
+}
+
 header {
   padding: 120px 0 80px;
   position: relative;
