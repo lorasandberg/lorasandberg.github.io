@@ -18,6 +18,10 @@ header {
   position: relative;
 }
 
+header.project-header {
+	padding: 120px 0 0;
+}
+
 .nav-link {
 	color: rgba(255,255,255,.8);
 }
@@ -148,4 +152,8 @@ footer  {
 .bg-dark {
 	background-color: #001933 !important;
 	color: white;
+}
+
+.embed-youtube {
+	width: 100% !important;
 }
