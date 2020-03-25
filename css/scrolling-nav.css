@@ -157,3 +157,12 @@ footer  {
 .embed-youtube {
 	width: 100% !important;
 }
+
+.experience-logo {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#self-picture {
+	width: 250px;
+}
