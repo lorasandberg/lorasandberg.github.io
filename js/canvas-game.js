@@ -3,7 +3,7 @@ var CanvasGame = (function() {
 
 	// Square root of 3
 	var sq3 = 1.7320508075688772935274463415059;
-	var hexSize = 50;
+	var hexSize = 60;
 	var width, height, containerWidth, windowHeight;
 	var canvas, ctx;
 
@@ -44,8 +44,11 @@ var CanvasGame = (function() {
 	}
 
 	function drawHex(x, y, size, color) {
+		color = ((color * 2645 + 2645) % 1);
 		color = Math.max(0, Math.min(color, 1)) * 0.7  + 0.1;
-		ctx.fillStyle = "hsla(211, 100%, " + Math.floor(color * 100) + "%, 1)";
+		ctx.fillStyle = "hsla(" + Math.floor(color * 30 + 20) + ", 100%, 50%, 1)";
+
+
 
 		size = size * 1.01;
 		ctx.beginPath();
@@ -71,10 +74,9 @@ var CanvasGame = (function() {
 
 				visited.push(hex);
 
-				var distanceFromBorders = Math.min(pivot.y + pos.y - 50, Math.min(pivot.x + pos.x, Math.abs(pivot.x + pos.x - width)));
+				var distanceFromBorders = Math.min(pivot.y + pos.y - 200, Math.min(pivot.x + pos.x, Math.abs(pivot.x + pos.x - width)));
 
-				if(getCircle(hex) < 3 || Math.pow(Math.random(), 1.1) > 
-					distanceFromBorders / 300) {
+				if(getCircle(hex) < 3 || Math.pow(Math.random(), 1.1) > distanceFromBorders / 300) {
 					drawHexAnimated(pos.x, pos.y, hexSize, distanceFromBorders / 400 + (Math.random() - 0.5) * 2 * 0.2);
 				}
 
@@ -118,7 +120,7 @@ var CanvasGame = (function() {
 		if(!(point.y > 0 && point.y < height && point.x > 0 && point.x < width))
 			return false;
 
-		if(point.y > 200 && 
+		if(point.y > 250 && 
 			Math.abs(point.x - pivot.x) < (containerWidth / 2) * 1.2)
 			return false;
 
