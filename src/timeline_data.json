@@ -1,0 +1,26 @@
+[
+    { "year": 2007, "description": "Created and published my first website made with HTML and CSS" },
+    { "year": 2008, "description": "Learned backend development with PHP and MySQL" },
+    { "year": 2009, "description": "Picked up Javascript and jQuery" },
+    
+    { "year": 2012, "description": "Graduated from Oulu Vocational College", "icon": "school" },
+    { "year": 2017, "description": "Graduated with a Bachelor's degree from Tampere University", "icon": "school" },
+    { "year": 2019, "description": "Graduated with a Master's degree from Aalto University", "icon": "school" },
+
+    { "year": 2009, "description": "An internship as a fullstack developer.", "icon": "work" },
+    { "year": 2010, "description": "An internship as a Unity developer.", "icon": "work" },
+    { "year": 2012, "description": "Started as a software developer at Aalto University", "icon": "work" },
+    { "year": 2014, "description": "Became a Web developer at Futurice", "icon": "work" },
+    { "year": 2018, "description": "Software developer and Game designer at Aalto University", "icon": "work" },
+    { "year": 2019, "description": "Software developer at Valo Motion", "icon": "work" },
+    { "year": 2022, "description": "Fullstack developer at twoday.", "icon": "work" },
+
+
+    
+    { "year": 2012, "description": "2nd place in Finnish National Skills Competition, Web Development", "icon": "award" },
+    { "year": 2020, "description": "Showcased a project in Experimental Gameplay Workshop in Game Developers Conference.", "icon": "award" },
+
+
+    { "year": 2015, "description": "Lived a year in Tokyo" },
+    { "year": 2023, "description": "Immigrated to Québec" }
+]

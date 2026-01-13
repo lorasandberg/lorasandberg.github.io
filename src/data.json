@@ -1,0 +1,95 @@
+{
+    "work": [
+        {
+            "company": "Twoday",
+            "title": "Software Developer",
+            "start_year": "2022",
+            "end_year": "2025",
+            "logo_file": "twoday.svg",
+            "summary": "I was working on making projects of different scales to reach their goals, ranging from bringing new projects to life to maintaining older ones, both in teams or independently. For some of the projects, I was also responsible of the documentation and the client relations.",
+            "tech": ["React", "Azure", "Node", "Spring Boot", "Liferay", "Docker" ],
+            "labels": ["Project management", "Client relations", "Documentation"]
+        },
+        {
+            "company": "Valo Motion",
+            "title": "Software Developer, Game Designer",
+            "start_year": "2019",
+            "end_year": "2021",
+            "logo_file": "valo.png",
+            "summary": "I designed and developed software and games for the company's AR platforms from early prototyping to release and further, both in compact teams and independently. My responsibilites were the full technical implementation of game projects, leading small project teams, coordinating the overall designs with visual artists and sound designers, and organizing tests. Additionally, the work involved UX design, data analysis, and technical artist tasks.",
+            "tech": ["Unity", "C#", "3D scanning"],
+            "labels": ["Project management", "Design", "UX", "Data analysis"]
+        },
+        {
+            "company": "Aalto University",
+            "title": "Software developer and designer",
+            "start_year": "2018",
+            "end_year": "2018",
+            "logo_file": "aalto.png",
+            "summary": "I worked as a developer and level designer for Plusminus, a 3D physics-based action-puzzle game. The project started as a course project, but the university offered to fund its further development afterwards. My main responsibility was designing the environment and puzzles of the game and participate in the game mechanics design. I continued working on the game in a professional capacity after the end of the contract in order to prepare it for various events in 2018 and 2019.",
+            "tech": ["Unity", "HLSL"],
+            "labels": ["Project management", "Design", "Event and conference presentations"]
+        },
+        {
+            "company": "Futurice",
+            "title": "Software Developer",
+            "start_year": "2014",
+            "end_year": "2014",
+            "logo_file": "futurice.png",
+            "summary": "As a junior web developer at Futurice I was responsible for working directly with clients to design, create, and maintain web and mobile applications, both in teams and independently.",
+            "tech": ["Angular", "Drupal", "Node"],
+            "labels": ["Client relations", "Design", "UX"]
+        },
+        {
+            "company": "Aalto University",
+            "title": "Software Developer",
+            "start_year": "2012",
+            "end_year": "2013",
+            "logo_file": "aalto.png",
+            "summary": "At Aalto University, I worked as a web developer in LeGroup, a multinational research unit doing research on how to utilize new technology in improving teaching and learning methods. I was responsible for the implementation of projects based on that research, ranging from prototypes and plugins to full-scale web applications.",
+            "tech": ["Javascript", "jQuery", "Wordpress", "PHP", "MySQL"],
+            "labels": ["Project management", "Research", "Prototyping"]
+        }
+    ],
+    "education": [
+        {
+            "title": "Master's Degree, Information Technology",
+            "school": "Aalto University",
+            "start_year": "2017",
+            "end_year": "2019",
+            "logo_file": "aalto.png",
+            "summary": "In addition to traditional studies, the program included several projects ranging from creating small ideas to finished products. Topics included game design and development, programming, 3D animation, usability design, machine learning, artificial intelligence, graphics programming and raytracing, and project management.",
+            "tech": ["Unity", "Machine learning", "AI", "Graphics programming", "Ray tracing"],
+            "labels": ["Project work", "Team work", "Prototyping", "Design", "Research"]
+        },
+        {
+            "title": "Bachelor's Degree, Information Studies and Interactive Media",
+            "school": "Tampere University",
+            "start_year": "2013",
+            "end_year": "2017",
+            "logo_file": "uta.png",
+            "summary": "The studies focused on interactive media and game research. Topics included usability, user and player research, game research, software development, Internet, social media, information science. I did minor studies in information technology, programming, software project management, user interface design, and Japanese language and culture.",
+            "tech": ["C", "C++", "Java", "PHP"],
+            "labels": ["Project management", "UX", "Research"]
+        },
+        {
+            "title": "Vocational Qualification in Business Information Technology",
+            "school": "Oulu Vocational College",
+            "start_year": "2009",
+            "end_year": "2012",
+            "logo_file": "osao.png",
+            "summary": "The studies were oriented in information technology, software and game development, and business management. Topics included programming, software and game development, 3D modeling, information processing, web development, databases, customer service, business administration, accounting, and project management. While studying, I participated twice in the National Skills Competition of Finland in web design and placed seventh and second in the finals.",
+            "tech": ["Unity", "C#", "PHP", "3D modeling", "SQL"],
+            "labels": ["Business management", "Customer relations", "Accounting"]
+        },
+        {
+            "title": "Exchange Studies",
+            "school": "Daito Bunka University",
+            "start_year": "2015",
+            "end_year": "2016",
+            "logo_file": "daito.png",
+            "summary": "I lived a year in Tokyo, studying Japanese language and culture. In the diverse group of native and exchange students, I learned to adapt into new environments, practiced intercultural communication, and got confidence in my language skills.",
+            "labels": ["Multicultural communication", "Language skills"]
+        }
+    ]
+}
