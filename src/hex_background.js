@@ -23,7 +23,7 @@ var HexBackground = (function() {
 		canvas = document.getElementById("background-canvas");
 		ctx = canvas.getContext("2d");
 		ctx.canvas.width = window.innerWidth;
-		ctx.canvas.height = document.body.clientHeight - 10;
+		ctx.canvas.height = document.body.clientHeight;
 
 		ctx.fillStyle = "#rgba(0, 123, 255, 1)";
 
@@ -41,12 +41,15 @@ var HexBackground = (function() {
 
 	me.reset = () => {
 
-		ctx.clearRect(0,0,canvas.width,canvas.height);
+		// Reset only if window size actually changes.
+		if(Math.abs(canvas.width - window.innerWidth) > 10 || Math.abs(canvas.height - window.innerHeight) > 10) {
+			ctx.clearRect(0,0,canvas.width,canvas.height);
 
-		visited = []
-		queue = []
+			visited = []
+			queue = []
 
-		me.init();
+			me.init();
+		}
 	}
 
 	function drawHexAnimated(x, y, size, color, k = 0) {

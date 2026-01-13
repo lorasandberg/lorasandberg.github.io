@@ -4,6 +4,10 @@
 	--nontech-tag-color: hsl(76, 49%, 38%);
 }
 
+html {
+  background-color: white;
+}
+
 body {
   margin: 0;
   place-items: start center;
