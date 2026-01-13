@@ -25,10 +25,14 @@ var HexBackground = (function() {
 		ctx.canvas.width = window.innerWidth;
 		ctx.canvas.height = document.body.clientHeight;
 
-		ctx.fillStyle = "#rgba(0, 123, 255, 1)";
 
 		width = ctx.canvas.width;
 		height = ctx.canvas.height;
+
+		
+		ctx.fillStyle = "#fff";
+		ctx.fillRect(0,0,width,height);
+
 		containerWidth = document.getElementById("name_title").getBoundingClientRect().width;
 		windowHeight = window.innerHeight;
 
@@ -184,4 +188,4 @@ var HexBackground = (function() {
 })();
 
 setTimeout(() => { HexBackground.init() }, 500);
-window.addEventListener("resize", (e) => HexBackground.reset());
+//window.addEventListener("resize", (e) => HexBackground.reset());
