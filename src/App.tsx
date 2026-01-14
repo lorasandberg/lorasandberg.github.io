@@ -7,6 +7,7 @@ import data from './data.json'
 import Timeline from './Timeline';
 import Profile from './Profile';
 import LanguageSkills from './LanguageSkills';
+import ContactInfo from './ContactInfo';
 
 function App() {
 
@@ -38,6 +39,10 @@ function App() {
 
       <Container className="section">
           <LanguageSkills />
+      </Container>
+
+      <Container className="section">
+        <ContactInfo />
       </Container>
     </Grid>
   </>)
