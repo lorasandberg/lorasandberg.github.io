@@ -1,0 +1,21 @@
+[
+    { "year": 2007, "text": "Html, CSS" },
+    { "year": 2008, "text": "PHP, MySQL" },
+    { "year": 2009, "text": "Javascript, jQuery, C#" },
+    { "year": 2010, "text": "Flash, Silverlight" },
+    { "year": 2011, "text": "Photoshop, SASS, ffmpeg" },
+    { "year": 2012, "text": "Wordpress, Java, HLSL" },
+    { "year": 2013, "text": "C++, C, Usability" },
+    { "year": 2014, "text": "Drupal, Angular, Node, npm, Git" },
+    { "year": 2015, "text": "REST, Android, MongoDB" },
+    { "year": 2016, "text": "UX design, Express, Gulp" },
+    { "year": 2017, "text": "VR, GLSL, 3D programming" },
+    { "year": 2018, "text": "Machine Learning, AI" },
+    { "year": 2019, "text": "AR" },
+    { "year": 2020, "text": "React, Typescript" },
+    { "year": 2021, "text": "Vue" },
+    { "year": 2022, "text": "Spring, Liferay" },
+    { "year": 2023, "text": "Azure" },
+    { "year": 2024, "text": "Python" },
+    { "year": 2025, "text": "Godot, Vite" }
+]

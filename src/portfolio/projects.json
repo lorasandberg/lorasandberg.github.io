@@ -1,0 +1,239 @@
+[
+    { 
+        "name": "Plusminus",
+        "id": "plusminus",
+        "tags": [ "personal", "work", "game" ],
+        "summary": "Physics-based action puzzle game about magnetism, shown at GDC Experimental gameplay workshop.",
+        "image": "...",
+        "link": "...",
+        "time": "2018-2019",
+        "relevancy": 4,
+        "extra_label": ""
+    },
+    { 
+        "name": "Hullaballoon",
+        "id": "hullaballoon",
+        "tags": [ "work", "game" ],
+        "summary": "An augmented reality game about popping balloons on a rock-climbing wall.",
+        "image": "...",
+        "link": "...",
+        "time": "2020",
+        "relevancy": 3,
+        "extra_label": "Valo Motion"
+    },
+    { 
+        "name": "Toywatch",
+        "id": "toywatch",
+        "tags": [ "work", "game" ],
+        "summary": "An augmented reality game about smacking digital beach toys on a physical trampoline.",
+        "image": "...",
+        "link": "...",
+        "time": "2019",
+        "relevancy": 4,
+        "extra_label": "Valo Motion"
+    },
+    { 
+        "name": "Jumpball",
+        "id": "jumpball",
+        "tags": [ "work", "game" ],
+        "summary": "A competitive multiplayer augmented reality trampoline version of Pong.",
+        "image": "...",
+        "link": "...",
+        "time": "2020",
+        "relevancy": 3,
+        "extra_label": "Valo Motion"
+    },
+    { 
+        "name": "Shadowlings",
+        "id": "shadowlings",
+        "tags": [ "work", "game" ],
+        "summary": "Climb on a rock-climbing wall to lead adorable fluffy creatures back to home.",
+        "image": "...",
+        "link": "...",
+        "time": "2019",
+        "relevancy": 3,
+        "extra_label": "Valo Motion"
+    },
+    { 
+        "name": "ValoApp",
+        "id": "valoapp",
+        "tags": [ "work", "game", "web" ],
+        "summary": "Mobile app for Valo Motion games, including saving and sharing game videos and competing on leaderboards.",
+        "image": "...",
+        "link": "...",
+        "time": "2021",
+        "relevancy": 3,
+        "extra_label": "Valo Motion"
+    },
+    { 
+        "name": "Garden",
+        "id": "garden",
+        "tags": [ "personal", "wip", "game" ],
+        "summary": "Personal game project for the selected few people who enjoy gardening, maths, and roguelike games.",
+        "image": "...",
+        "link": "...",
+        "time": "2025 -",
+        "relevancy": 4
+    },
+    { 
+        "name": "YouSort",
+        "id": "yousort",
+        "tags": [ "personal", "web" ],
+        "summary": "A small tool to help sorting lists with subjective criteria.",
+        "image": "...",
+        "link": "...",
+        "time": "2022",
+        "relevancy": 5
+    },
+    { 
+        "name": "Timeline Card Game",
+        "id": "timeline",
+        "tags": [ "personal", "wip", "web" ],
+        "summary": "A card game for high school history students and teachers in Québec, following the local study program.",
+        "image": "...",
+        "link": "...",
+        "time": "2025 -",
+        "relevancy": 4
+    },
+    { 
+        "name": "Frozen Force",
+        "id": "frozenforce",
+        "tags": [ "personal", "web" ],
+        "summary": "Website for a small e-Sports team with player profiles, records of past games, and some additonal data insights.",
+        "image": "...",
+        "link": "...",
+        "time": "2012",
+        "relevancy": 10
+    },
+    { 
+        "name": "Site Folk",
+        "id": "sitefolk",
+        "tags": [ "personal", "web" ],
+        "summary": "A guide website and community hub for a game community.",
+        "image": "...",
+        "link": "...",
+        "time": "2007-2017",
+        "hide": true,
+        "relevancy": 10
+    },
+    { 
+        "name": "Helsingin Seurakunta",
+        "id": "hautahaku",
+        "tags": [ "work", "web" ],
+        "summary": "Mobile tool for the logistics of graveyards and mortuaries across Finland.",
+        "image": "...",
+        "link": "...",
+        "time": "2024",
+        "relevancy": 3,
+        "extra_label": "Twoday"
+    },
+    { 
+        "name": "Ohjaustaverkossa.fi",
+        "id": "ohjaustaverkossa",
+        "tags": [ "work", "web" ],
+        "summary": "Social guidance service for young people in Finland, connecting them with multidisciplinary teams of social workers.",
+        "image": "...",
+        "link": "...",
+        "time": "2022",
+        "relevancy": 2,
+        "extra_label": "Twoday"
+    },
+    { 
+        "name": "Oma Häme",
+        "id": "omahame",
+        "tags": [ "work", "web" ],
+        "summary": "Maintenance tickets and accessibility improvements for the website of Kanta-Häme county, Finland.",
+        "image": "...",
+        "link": "...",
+        "time": "2024",
+        "relevancy": 2,
+        "extra_label": "Twoday"
+    },
+    { 
+        "name": "Lotu",
+        "id": "lotu",
+        "tags": [ "work", "web" ],
+        "summary": "Public service for people with low-income to seek and apply for funding for small vacations.",
+        "image": "...",
+        "link": "https://lotu.lomajarjestot.fi/calendar/HYVINVOINT",
+        "time": "2023",
+        "relevancy": 2,
+        "extra_label": "Twoday"
+    },
+    { 
+        "name": "Lapha.fi",
+        "id": "lapha",
+        "tags": [ "work", "web" ],
+        "summary": "Implemented translations for three Sami languages and did accessibility improvements across the site.",
+        "image": "...",
+        "link": "...",
+        "time": "2024",
+        "relevancy": 2,
+        "extra_label": "Twoday"
+    },
+    { 
+        "name": "Famine",
+        "id": "famine",
+        "tags": [ "personal", "game" ],
+        "summary": "Location-based mobile game about surviving famine in 1800s Finland.",
+        "image": "...",
+        "link": "...",
+        "time": "2020",
+        "relevancy":9,
+        "extra_label": ""
+    },
+    { 
+        "name": "Sockoff",
+        "id": "sockoff",
+        "tags": [ "personal", "game", "gamejam" ],
+        "summary": "A game jam party game about being a sock in a laundry machine and avoiding getting wet",
+        "image": "...",
+        "link": "...",
+        "time": "2018",
+        "relevancy": 10,
+        "extra_label": "Game jam"
+    },
+    { 
+        "name": "Breed-a-Fluff",
+        "id": "breedafluff",
+        "tags": [ "personal", "game", "gamejam" ],
+        "summary": "A jam game about fluffball genetics.",
+        "image": "...",
+        "link": "...",
+        "time": "2018",
+        "relevancy": 10,
+        "extra_label": "Game jam"
+    },
+    { 
+        "name": "Save Game Jam",
+        "id": "savegamejam",
+        "tags": [ "personal", "game", "gamejam" ],
+        "summary": "Mobile game about removing plastic from the ocean.",
+        "image": "...",
+        "link": "...",
+        "time": "2018",
+        "relevancy": 10,
+        "extra_label": "Game jam"
+    },
+    { 
+        "name": "Lättyyn!",
+        "id": "pancake",
+        "tags": [ "personal", "game", "gamejam" ],
+        "summary": "Physics-based game about using motion controls to throw pancakes at your opponent face.",
+        "image": "...",
+        "link": "...",
+        "time": "2018",
+        "relevancy": 10,
+        "extra_label": "Game jam"
+    },
+    { 
+        "name": "This portfolio!",
+        "id": "about",
+        "tags": [ "personal", "wip" ],
+        "summary": "Personal portfolio for showcasing my important and less important projects.",
+        "image": "...",
+        "link": "...",
+        "time": "2008-2026",
+        "relevancy": 3
+    }
+]

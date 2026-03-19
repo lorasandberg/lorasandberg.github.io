@@ -6,7 +6,7 @@
             "start_year": "2022",
             "end_year": "2025",
             "logo_file": "twoday.svg",
-            "summary": "I was working on making projects of different scales to reach their goals, ranging from bringing new projects to life to maintaining older ones, both in teams or independently. For some of the projects, I was also responsible of the documentation and the client relations.",
+            "summary": "I was working on making projects of different scales to reach their goals, ranging from bringing new projects to life to maintaining older systems, both in teams or independently. For some of the projects, I was also responsible of the documentation and the client relations.",
             "tech": ["React", "Azure", "Node", "Spring Boot", "Liferay", "Docker" ],
             "labels": ["Project management", "Client relations", "Documentation"]
         },
@@ -26,7 +26,7 @@
             "start_year": "2018",
             "end_year": "2018",
             "logo_file": "aalto.png",
-            "summary": "I worked as a developer and level designer for Plusminus, a 3D physics-based action-puzzle game. The project started as a course project, but the university offered to fund its further development afterwards. My main responsibility was designing the environment and puzzles of the game and participate in the game mechanics design. I continued working on the game in a professional capacity after the end of the contract in order to prepare it for various events in 2018 and 2019.",
+            "summary": "I was a developer and level designer for Plusminus, a 3D physics-based action-puzzle game. The project started as a course project, but the university offered to fund its further development afterwards. My main responsibility was designing the environment and puzzles of the game and participate in the game mechanics design. I continued working on the game in a professional capacity after the end of the contract in order to prepare it for various events in 2018 and 2019.",
             "tech": ["Unity", "HLSL"],
             "labels": ["Project management", "Design", "Event and conference presentations"]
         },
@@ -91,5 +91,72 @@
             "summary": "I lived a year in Tokyo, studying Japanese language and culture. In the diverse group of native and exchange students, I learned to adapt into new environments, practiced intercultural communication, and got confidence in my language skills.",
             "labels": ["Multicultural communication", "Language skills"]
         }
+    ],
+    "tech":
+        [
+            { "text": "HTML", "year": 2007 },
+            { "text": "CSS", "year": 2007 },
+
+            { "text": "PHP", "year": 2008 },
+            { "text": "MySQL", "year": 2008 },
+
+            { "text": "Javascript", "year": 2009 },
+            { "text": "jQuery", "year": 2009 },
+            { "text": "C#", "year": 2009 },
+
+            { "text": "Flash", "year": 2010 },
+            { "text": "Silverlight", "year": 2010 },
+
+            { "text": "Photoshop", "year": 2011 },
+            { "text": "SASS", "year": 2011 },
+            { "text": "ffmpeg", "year": 2011 },
+
+            { "text": "Wordpress", "year": 2012 },
+            { "text": "Java", "year": 2012 },
+            { "text": "HLSL", "year": 2012 },
+
+            { "text": "C++", "year": 2013 },
+            { "text": "C", "year": 2013 },
+            { "text": "Usability", "year": 2013 },
+
+            { "text": "Drupal", "year": 2014 },
+            { "text": "Angular", "year": 2014 },
+            { "text": "Node", "year": 2014 },
+            { "text": "npm", "year": 2014 },
+            { "text": "Git", "year": 2014 },
+
+            { "text": "REST", "year": 2015 },
+            { "text": "Android", "year": 2015 },
+            { "text": "MongoDB", "year": 2015 },
+            
+            { "text": "UX Design", "year": 2016 },
+            { "text": "Express", "year": 2016 },
+            { "text": "Gulp", "year": 2016 },
+            { "text": "Bootstrap", "year": 2016 },
+            
+            { "text": "VR", "year": 2017 },
+            { "text": "GLSL", "year": 2017 },
+            { "text": "3D Programming", "year": 2017 },
+            
+            { "text": "Machine learning", "year": 2018 },
+            { "text": "AI", "year": 2018 },
+
+            { "text": "AR", "year": 2019 },
+            { "text": "Material UI", "year": 2019 },
+           
+            { "text": "React", "year": 2020 }, 
+            { "text": "Typescript", "year": 2020 }, 
+
+            { "text": "Vue", "year": 2021 }, 
+            
+            { "text": "Spring", "year": 2022 }, 
+            { "text": "Liferay", "year": 2022 }, 
+            
+            { "text": "Azure", "year": 2023 }, 
+            
+            { "text": "Python", "year": 2024 }, 
+            
+            { "text": "Godot", "year": 2025 }, 
+            { "text": "Vite", "year": 2025 }
     ]
 }

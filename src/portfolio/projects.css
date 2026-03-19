@@ -1,0 +1,258 @@
+.project-container {
+    flex-grow: 0;
+    width: 100%;
+    position: relative;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.project-container > .MuiButtonBase-root {
+
+    &:focus .project-card .card-title{
+        background-color: rgb(255, 172, 77);   
+    }
+
+    .project-card:after {
+        content: "";
+        position: absolute; 
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+        box-sizing: border-box;
+        border: 5px solid hsla(0, 100%, 50%, 0.8);
+        border-radius: 10px;        
+        background-color: #f00;
+        z-index: 100;
+    }
+
+}
+
+.filter-button {
+
+    &.active {
+
+    }
+    &.deactive {
+        background-color: #e77b60;
+        opacity: 1;
+    }
+}
+
+.project-card {
+    /*width: calc(63px * 4);
+    height: calc(88px * 4);*/
+    width: 100%;
+    aspect-ratio: 63 / 88;
+    min-width: 270px;
+    max-width: 350px;
+
+    cursor: pointer;
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(128, 128, 128, 0.364);
+    /* border: 10px solid hsl(0, 77%, 53%); */
+    box-sizing: border-box;
+
+    
+    &:after {
+        content: "";
+        backface-visibility: hidden;
+        transform: rotateY(180deg) translateZ(1px);
+        border-radius: 10px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+}
+
+.card-flipside {
+    width: calc(63px * 4);
+    height: calc(88px * 4);
+
+    background-color: rgb(247, 150, 39);
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.164);
+    backface-visibility: hidden;
+
+    position: absolute;
+}
+
+.project-card-image {
+    width: 100%;
+    background-color: orange;
+    overflow: hidden;
+    
+    border-radius: 10px 10px 0 0;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.card-icons-container {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+
+    .card-icons {
+        
+        align-items: flex-end;
+        gap: 5px;
+
+        .card-icon {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 0.3em;
+        }
+    }
+}
+
+
+.card-title-row {
+
+    opacity: 0.999;
+    height: 40px;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5em;
+    
+
+    * {
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .card-title {
+        font-weight: bold;
+        padding: 0.5em 1em;
+    }
+
+    .card-icon {
+        padding: 0.3em; 
+    }
+
+}
+
+.MuiTypography-root.card-year {
+    font-size: 0.9em;
+    color: #797979de;
+    text-align: right;
+}
+
+
+/* Project details page */
+
+.project-details-card-position {
+    position: absolute;
+    right: 40px;
+    transform: rotate(15deg);
+}
+
+.css-rizt0-MuiTypography-root.project-layout-title, .sidebar-title, .header-title {
+    font-size: 2em;
+    text-align: left;
+
+    color: rgb(255, 255, 255);
+
+    text-shadow: 2px 2px 2px #be808000;
+    font-weight: bold;
+    background-color: rgba(230, 79, 33, 0.8);
+    border-radius: 10px;
+    padding: 0.2em 0.5em;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.project-layout-title:not(:first-child) {
+    margin-top: 1.5em;
+}
+
+/* Subtitle within content */
+.project-layout-box .project-layout-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+    background: none;
+}
+
+.project-layout-stack {
+    gap: 10px;
+}
+
+.MuiButton-root.back-button {
+    color: white;
+    background-color: rgba(230, 79, 33, 0.8);
+    border-radius: 10px;
+    padding: 0.2em 0.5em;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    align-self:flex-start;
+}
+
+@keyframes layoutStackAnimation {
+    0% { transform: translateY(100px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1 }
+}
+
+.project-layout-box {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 20px;
+
+    p {
+        padding: 0.2em;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.project-layout-stack > * {
+    opacity: 0;
+    transition: transform;
+    animation: 0.4s ease-out 0s 1 layoutStackAnimation;
+    animation-fill-mode: forwards;
+
+    animation-delay: calc(sibling-index() * 240ms + 200ms);
+}
+
+.image-label {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: -10px;
+    border-radius: 0 0 10px 10px;
+    padding: 0.5em;
+}
+
+.tech-tag-list {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.tech-tag {
+    background-color: rgb(238, 89, 3);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
