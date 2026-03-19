@@ -1,21 +1,18 @@
 import { Box, Button, Grid, Stack, Typography } from "@mui/material";
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 import { Link } from "react-router";
 
 function ProjectLayout(props: { children: ReactNode }) {
     const { children } = props;
-    let stack = useRef<HTMLElement>(null);
 
     useEffect(() => {
         if ('scrollRestoration' in window.history)
             window.history.scrollRestoration = 'manual';
 
-        const scrollDest = stack.current ? stack.current.getBoundingClientRect().top : 0;
-
-        window.scrollTo({top: scrollDest, behavior: "smooth"});
+        window.scrollTo({top: 0, behavior: "smooth"});
     }, []);
 
-    return <Stack ref={stack} className="project-layout-stack" alignItems={"center"}>
+    return <Stack className="project-layout-stack" alignItems={"center"}>
         {children}
         
         <Button className="back-button" component={Link} to={"/"}>Back to projects</Button>

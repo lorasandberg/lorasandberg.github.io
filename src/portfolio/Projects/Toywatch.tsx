@@ -1,7 +1,5 @@
-import { Stack, Typography } from "@mui/material";
 import ValoMotion from "./ValoMotion";
 import ProjectLayout, { ProjectContent, ProjectImage, ProjectTech, ProjectTitle } from "./__ProjectLayout";
-import { Link } from "react-router";
 import toywatch_image from './images/ValoJump_Toywatch_1.jpg';
 
 function Toywatch() {

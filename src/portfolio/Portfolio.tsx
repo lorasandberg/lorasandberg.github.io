@@ -1,8 +1,6 @@
-import { Box, Grid, Stack } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import Sidebar from "./Sidebar";
-import Cards from "./Cards";
-import { Outlet, ScrollRestoration } from "react-router";
-import type { Theme } from "@emotion/react";
+import { Outlet } from "react-router";
 import useResponsiveState from "./util/useResponsiveState";
 
 function Portfolio() {

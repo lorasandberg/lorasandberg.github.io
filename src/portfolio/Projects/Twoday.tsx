@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import ProjectLayout, { ProjectContent, ProjectImage, ProjectTitle } from "./__ProjectLayout";
+import { ProjectContent, ProjectImage, ProjectTitle } from "./__ProjectLayout";
 import { Stack } from "@mui/material";
 import twoday_image from './images/twoday.png';
 

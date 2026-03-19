@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import ProjectLayout, { ProjectContent, ProjectImage, ProjectTech, ProjectTitle } from "./__ProjectLayout";
 import Twoday from "./Twoday";
 import site from './images/lapha_site.png';

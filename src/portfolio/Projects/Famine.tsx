@@ -1,4 +1,3 @@
-import Tech from "../util/Tech";
 import ProjectLayout, { ProjectContent, ProjectTech, ProjectTitle } from "./__ProjectLayout";
 
 function Famine() {

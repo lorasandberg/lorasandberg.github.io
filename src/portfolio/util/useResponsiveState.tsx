@@ -1,5 +1,4 @@
-import { useTheme } from "@emotion/react";
-import { useMediaQuery } from "@mui/material";
+import { useMediaQuery, useTheme } from "@mui/material";
 
 type ResponsiveState = {
     at_least: { mobile: boolean, twoCard: boolean, threeCard: boolean, largest: boolean }, 

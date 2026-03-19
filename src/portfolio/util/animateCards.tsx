@@ -1,4 +1,4 @@
-async function animateCards(direction: 'show' | 'hide', selectedProject: string | null = null) {
+/*async function animateCards(direction: 'show' | 'hide', selectedProject: string | null = null) {
 
     return;
 
@@ -64,14 +64,9 @@ async function animateCards(direction: 'show' | 'hide', selectedProject: string 
 
     for (let i in ghostCards)
         ghostCards[i].remove();
-    
-
-
-
-
 
 
 
 }
 
-export default animateCards;
+export default animateCards;*/

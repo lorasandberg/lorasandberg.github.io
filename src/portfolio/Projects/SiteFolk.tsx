@@ -1,4 +1,3 @@
-import Tech from "../util/Tech";
 import ProjectLayout, { ProjectContent, ProjectImage, ProjectTech, ProjectTitle } from "./__ProjectLayout";
 import project_image from './images/sitefolk_screen.png';
 import red_screen from './images/stiefolk_v5.png';

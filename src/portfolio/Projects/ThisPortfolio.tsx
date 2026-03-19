@@ -1,4 +1,3 @@
-import { Stack, Typography } from "@mui/material";
 import ProjectLayout, { ProjectContent, ProjectImage, ProjectTech } from "./__ProjectLayout";
 import image_2012 from './images/old_portfolio_2009.png';
 

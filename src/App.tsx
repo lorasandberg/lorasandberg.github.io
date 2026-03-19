@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
-import LandingPage from './LandingPage/LandingPage'
 import Portfolio from './portfolio/Portfolio'
 import ProjectDetails from './portfolio/ProjectDetails'
 import Cards from './portfolio/Cards'

@@ -1,7 +1,5 @@
-import { Paper, Container, Typography, Stack, Box, Badge, Button, ButtonBase, Grid } from "@mui/material";
-import Placeholders from "./assets/placeholders/index";
-import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
-import useInterval from "../useInterval";
+import { Typography, Stack, Box, ButtonBase } from "@mui/material";
+import { forwardRef, useImperativeHandle, useRef, useState } from "react";
 
 import WorkIcon from '@mui/icons-material/Work';
 import ConstructionIcon from '@mui/icons-material/Construction';
@@ -9,7 +7,7 @@ import PersonalIcon from '@mui/icons-material/Favorite';
 import { getProjectImage } from "./Projects/__ProjectElement";
 import type { Project } from "./util/useProjects";
 
-const ProjectCard = forwardRef((props: { project: Project, flipped?: boolean, disabled?: boolean, onSelected?: (project: Project) => void }, ref) => {
+const ProjectCard = forwardRef((props: { project: Project, flipped?: boolean, disabled?: boolean, onSelected?: (project: Project, card: HTMLElement | null) => void }, ref) => {
     const { project } = props;
     const flipped = typeof(props.flipped) !== 'undefined' ? props.flipped : false;
     const disabled = typeof(props.disabled) !== 'undefined' ? props.disabled : false;
@@ -68,21 +66,8 @@ const ProjectCard = forwardRef((props: { project: Project, flipped?: boolean, di
         }
     }));
 
-    const onClick = (e) => {
+    const onClick = () => {
         onSelected(project, cardRef.current);
-    }
-
-    const cardStyle = {
-        transformStyle: "preserve-3d",
-        transition: `transform 0.1s linear`
-    }
-
-    const imageStyle = {
-        width: "100%",
-        height: "100%",
-        position: "relative",
-        objectFit: "cover",
-        transition: `transform 0.1s linear`,
     }
 
     const flipState = flipped ? { transform: "rotateY(180deg)" } : {}
@@ -90,11 +75,11 @@ const ProjectCard = forwardRef((props: { project: Project, flipped?: boolean, di
     return (
     <Box className="project-container" sx={flipState} data-project-id={project.id}>
         <ButtonBase component={Box} onClick={onClick} sx={{ width: "100%"}} disabled={disabled}>
-            <Box ref={cardRef} className="project-card" style={cardStyle}>
+            <Box ref={cardRef} className="project-card">
                 <Stack sx={{ height: "100%"}}>
                     <Box className="project-card-image" sx={{height: "55%"}}>
                         <Box sx={{ position: "relative", display: "flex", width: "120%", height: "120%", left: "-10%", top: "-10%" }}> 
-                            <img ref={imageRef} style={imageStyle} src={getProjectImage(project)} />            
+                            <img ref={imageRef} src={getProjectImage(project)} />            
                         </Box>
                     </Box>
                     

@@ -1,4 +1,3 @@
-import { Box, Typography } from "@mui/material";
 import ProjectLayout, { ProjectContent, ProjectImage, ProjectTech, ProjectTitle } from "./__ProjectLayout";
 import plusminus_image from './images/plusminus.png';
 import { Link } from "react-router";

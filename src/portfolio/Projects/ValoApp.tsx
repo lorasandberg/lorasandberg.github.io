@@ -1,7 +1,5 @@
-import { Stack, Typography } from "@mui/material";
 import ValoMotion from "./ValoMotion";
 import ProjectLayout, { ProjectContent, ProjectImage, ProjectTech, ProjectTitle } from "./__ProjectLayout";
-import { Link } from "react-router";
 import project_image from './images/valoapp.jpg'
 
 function ValoApp() {
