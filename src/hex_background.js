@@ -18,6 +18,17 @@ const settings = {
 	// For determining hex color
 	colorFunction: (hex, position) => {
 		return (Math.random() - 0.5) * 2 * 0.2;
+	},
+
+	// Get desired canvas size
+	sizeFunction: () => {
+
+		console.log(window.screen.width);
+
+		return { 
+			x: window.innerWidth, //document.documentElement.scrollWidth, 
+			y: window.screen.height //document.documentElement.scrollHeight 
+		}
 	}
 }
 
@@ -57,6 +68,7 @@ const landingPageProbability = (hex, position) => {
 
 var HexBackground = (function() {
 	var me = {};
+	var savedSettings = null;
 
 	// Square root of 3
 	var sq3 = 1.7320508075688772935274463415059;
@@ -80,17 +92,29 @@ var HexBackground = (function() {
 
 	me.init = function init(settings) {
 
+		savedSettings = settings;
+
 		canvas = document.getElementById("background-canvas");
 		ctx = canvas.getContext("2d");
-		ctx.canvas.width = window.innerWidth;
-		ctx.canvas.height = window.innerHeight;
+
+		const canvasSize = settings.sizeFunction();
+		console.log(canvasSize);
+
+		ctx.canvas.width = canvasSize.x;
+		ctx.canvas.height = canvasSize.y;
+
+		const resizeObserver = new ResizeObserver((entries) => {
+			for (const entry in entries) {
+				me.reset();
+			}
+		});
+
+		resizeObserver.observe(canvas);
 
 		width = ctx.canvas.width;
 		height = ctx.canvas.height;
 
 		
-		ctx.fillStyle = "#fff";
-		ctx.fillRect(0,0,width,height);
 
 		containerWidth = 100; //document.getElementById("name_title").getBoundingClientRect().width;
 		windowHeight = window.innerHeight;
@@ -100,6 +124,14 @@ var HexBackground = (function() {
 		validityFunction = settings.validityFunction;
 		colorFunction = settings.colorFunction;
 
+
+		me.run();
+	}
+
+	me.run = () => {
+
+		ctx.fillStyle = "#fff";
+		ctx.fillRect(0,0,width,height);
 		run = run + 1;
 
 		iterate({q:0,r:0}, 0, run);
@@ -107,15 +139,21 @@ var HexBackground = (function() {
 
 	me.reset = () => {
 
-		// Reset only if window size actually changes.
-		if(Math.abs(canvas.width - window.innerWidth) > 10 || Math.abs(canvas.height - window.innerHeight) > 10) {
-			ctx.clearRect(0,0,canvas.width,canvas.height);
+		 const diffPercentage = {
+			x: Math.abs(1 - (window.innerWidth / canvas.width)),
+			y: Math.abs(1 - (window.innerHeight / canvas.height))
+		 }
 
-			visited = []
-			queue = []
 
-			me.init();
-		}
+		if(diffPercentage.x < 0.2 && diffPercentage.y < 0.2)
+			return;
+
+		ctx.clearRect(0,0,canvas.width,canvas.height);
+
+		visited = []
+		queue = []
+
+		me.run();
 	}
 
 	function drawHexAnimated(clientPosition, size, color, k = 0) {
@@ -150,45 +188,43 @@ var HexBackground = (function() {
 
 	function iterate(hex, depth, run_id) {
 
-		if (run_id != run) return;
+		if (run_id != run) return; // Check if the run has been reset and previous run nodes should be abandoned.
 		if (typeof(hex) === "undefined") return;
 
 		const hexmapPosition = hex2pixel(hex);
 		const clientPosition = { x: hexmapPosition.x + pivot.x, y: hexmapPosition.y + pivot.y }
 
-		// Don't update hex animation below than where the user has scrolled.
-		if(false && clientPosition.y > windowHeight + window.scrollY) { 
-			
-			setTimeout(function() { iterate(hex, depth, run_id); }, 100);
+
+		if (clientPosition.y > windowHeight + window.scrollY + hexSize) {
+			queue.push(hex);
 		}
-		else {
-			if(!hasBeenChecked(hex) && isValidPosition(hex, clientPosition)) {
-
-				visited.push(hex);
-
-				//var distanceFromBorders = Math.min(pivot.y + pos.y - 200, Math.min(pivot.x + pos.x, Math.abs(pivot.x + pos.x - width)));
-
-				// Hex is valid, but we still randomize whether to draw it to create more interesting patterns.
-				if(probabilityFunction(hex, clientPosition)) {
-					drawHexAnimated(clientPosition, hexSize, colorFunction(hex, clientPosition));
-				}
-
-				// Add the neighbors of the hex to the queue.
-				var neighbors = getNeighbors(hex);
-				for(var i = 0; i < 6; i++) {
-					queue.push(neighbors[i]);
-				}
+		else if(!hasBeenChecked(hex) && isValidPosition(hex, clientPosition)) {
 			
-			}	
+			visited.push(hex);
 
-			if(queue.length > 0)
-				setTimeout(function() { iterate(getQueueItem(), depth + 1, run_id); }, 10);
+			//var distanceFromBorders = Math.min(pivot.y + pos.y - 200, Math.min(pivot.x + pos.x, Math.abs(pivot.x + pos.x - width)));
 
-			if(threads < 3 && depth > 20){
-				threads++;
-				setTimeout(function() { iterate(getQueueItem(), depth + 1, run_id); }, 5);
+			// Hex is valid, but we still randomize whether to draw it to create more interesting patterns.
+			if(probabilityFunction(hex, clientPosition)) {
+				drawHexAnimated(clientPosition, hexSize, colorFunction(hex, clientPosition));
 			}
+
+			// Add the neighbors of the hex to the queue.
+			var neighbors = getNeighbors(hex);
+			for(var i = 0; i < 6; i++) {
+				queue.push(neighbors[i]);
+			}
+		
+		}	
+
+		if(queue.length > 0)
+			setTimeout(function() { iterate(getQueueItem(), depth + 1, run_id); }, 10);
+
+		if(threads < 3 && depth > 20){
+			threads++;
+			setTimeout(function() { iterate(getQueueItem(), depth + 1, run_id); }, 5);
 		}
+	
 	}
 
 	function getQueueItem() {
